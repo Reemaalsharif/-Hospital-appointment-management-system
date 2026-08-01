@@ -1,31 +1,73 @@
-# SQL Database Project
+# Hospital Appointment Management System
 
 ## Overview
 
-This project focuses on designing and implementing a relational database using SQL. It includes database schema creation, data insertion, and SQL queries to manage and retrieve information efficiently.
+This project focuses on designing and implementing a relational database system for managing hospital appointments. The system is designed to organize and maintain information about patients, doctors, and scheduled appointments while ensuring data accuracy and integrity.
 
-The project demonstrates fundamental database concepts such as table design, relationships, data manipulation, and query execution.
+The database structure helps manage appointment scheduling efficiently by maintaining relationships between patients and doctors and reducing data redundancy.
+
+---
+
+## Database Entities
+
+The system consists of three main entities:
+
+### Patient
+Stores patient information including:
+- Patient ID
+- Patient Name
+- Phone Number
+
+### Doctor
+Stores doctor information including:
+- Doctor ID
+- Doctor Name
+- Specialty
+
+### Appointment
+Stores appointment details including:
+- Appointment ID
+- Date
+- Status
+- Patient and Doctor relationships
 
 ---
 
 ## Project Files
 
 ### Schema.sql
+
 Contains the database structure, including:
-- Creating tables
-- Defining columns and data types
-- Setting primary keys and relationships
-- Applying database constraints
+- Creating database tables
+- Defining attributes and data types
+- Setting primary keys and foreign keys
+- Establishing relationships between entities
 
 ### insert_data.sql
-Contains sample data used to populate the database tables for testing and analysis.
+
+Contains sample data inserted into:
+- Patient table
+- Doctor table
+- Appointment table
 
 ### queries.sql
-Contains SQL queries used to:
-- Retrieve data from tables
-- Filter and sort information
-- Perform data analysis
-- Work with relationships between tables
+
+Contains SQL queries for:
+- Basic SELECT queries
+- Aggregate functions
+- JOIN operations
+- Subqueries
+- Views
+
+---
+
+## Database Design
+
+The project includes:
+
+- Conceptual design using an Entity Relationship Diagram (ERD)
+- Logical design using a relational schema
+- Database implementation using SQL
 
 ---
 
@@ -33,17 +75,19 @@ Contains SQL queries used to:
 
 - SQL
 - Relational Database Management System (RDBMS)
-- Database Design Concepts
+- Database Design
+- SQL Queries
 
 ---
 
 ## Project Structure
 
-SQL-Database-Project/
+Hospital-Appointment-Management-System/
 │
 ├── Schema.sql
 ├── insert_data.sql
 └── queries.sql
+
 
 ---
 
@@ -60,12 +104,9 @@ SQL-Database-Project/
 
 - SQL Programming
 - Database Design
+- Entity Relationship Modeling (ERD)
 - Relational Data Modeling
-- Data Manipulation
-- Writing SQL Queries
-- Database Management
+- Primary and Foreign Keys
+- SQL Query Writing
+- Data Management
 
----
-
-## Author
- Reemaalsharif
